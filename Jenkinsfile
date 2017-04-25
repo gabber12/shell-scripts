@@ -13,8 +13,8 @@ pipeline {
             echo 'Testing..'
             
           },
-          "Randome": {
-            sh './randomfile.sh'
+          "Integration Test": {
+            echo 'Integration Test...'
             
           }
         )
